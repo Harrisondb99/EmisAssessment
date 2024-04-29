@@ -103,6 +103,11 @@ I had a similar realisation toward the end of my query writing when I noticed ne
 I did the same for the patient's name, rather than showing two seperate columns for each patient I chose to combine them into one new column called Fullname. 
   -This had no real effect on the query but I believe it makes the output easier to read. 
 
+  **Patient Weight (Added as a final adjustment)**
+
+  I realised just before submission that the snomed_concept_id for the patients under 40kg is related to 4 different emis_term's. However, even with research online I'm not 100% certain as to which of these specifically    relates to the correct filter of weight. If I knew the correct term I would change out the WHERE I used to be specific to the 40kg code, but for the purposes of the assessment I chose to leave my query as it was       
+  previously. 
+
 
 **Query Testing**
 
