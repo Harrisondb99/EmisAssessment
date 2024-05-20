@@ -133,7 +133,7 @@ AS (
 		observation o
 	WHERE
 		o.snomed_concept_id = 27113001 --id for patients under 40kg
-),
+), --CTE to create a list of patients under 40kg
 
 cte_observations_with_COPD_diagnosis (
 	Registration_GUID
