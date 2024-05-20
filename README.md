@@ -9,25 +9,25 @@ The following is a list of changes that were required to be made within the wiza
 
 **Medication;**
 
-Changed dose from nvarchar(50) to nvarchar(max)
-Changed reimburse type to allow nulls
-Changed emis_mostrecent_issue_date to allow nulls
-Changed end date to allow nulls
-Changed number_authorised to nvarchar(50)
-Changed max_nextissue_days to nvarchar(50)
-Changed min_nextissue_days to nvarchar(50)
-Changed emis_original_term to nvarchar(MAX)
-Changed emis_drug_guid to nvarchar(MAX)
-Changed emis_issue_method to nvarchar(MAX)
-Changed estimated_nhs_cost to nvarchar(MAX)
-Changed consultation_source_emis_code_id to nvarchar(MAX)
-Changed consultation_source_emis_original_term to nvarchar(MAX)
-Changed emis_encounter_guid to nvarchar(MAX)
-Changed exa_encounter_guid to nvarchar(MAX)
-Changed emis_code_id to allow nulls
-Changed authorisedissues_authorised_date to allow nulls
-Changed emis_medication_status to allow nulls
-Changed number_of_issues to allow nulls
+Changed dose from nvarchar(50) to nvarchar(max)__
+Changed reimburse type to allow nulls__
+Changed emis_mostrecent_issue_date to allow nulls__
+Changed end date to allow nulls__
+Changed number_authorised to nvarchar(50)__
+Changed max_nextissue_days to nvarchar(50)__
+Changed min_nextissue_days to nvarchar(50)__
+Changed emis_original_term to nvarchar(MAX)__
+Changed emis_drug_guid to nvarchar(MAX)__
+Changed emis_issue_method to nvarchar(MAX)__
+Changed estimated_nhs_cost to nvarchar(MAX)__
+Changed consultation_source_emis_code_id to nvarchar(MAX)__
+Changed consultation_source_emis_original_term to nvarchar(MAX)__
+Changed emis_encounter_guid to nvarchar(MAX)__
+Changed exa_encounter_guid to nvarchar(MAX)__
+Changed emis_code_id to allow nulls__
+Changed authorisedissues_authorised_date to allow nulls__
+Changed emis_medication_status to allow nulls__
+Changed number_of_issues to allow nulls__
 
 **Observations;**
 
